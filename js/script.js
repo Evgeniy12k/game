@@ -20,7 +20,8 @@ return  function repeat(){
            }
                else if ( +userNumber === randomNumber ){
                    alert ('Поздравляю, вы угадали!!');
-                   return repeat();
+                   return game()(); 
+                   
       
            }
            // проверяет является ли числом
